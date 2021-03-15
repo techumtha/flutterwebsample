@@ -44,7 +44,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MATERIAL_ICONS_4AA2E }}"
-          projectId: material-icons-4aa2e
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FLUTTERWEBSAMPLEAPP }}'
+          projectId: flutterwebsampleapp
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
